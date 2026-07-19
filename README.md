@@ -26,16 +26,27 @@ Tecnologías utilizadas
 **Estructura del proyecto**
 
 generador/
+
 ├── modelo/
+
 │ ├── Dispositivo.java
+
 │ ├── Red.java
+
 │ ├── Escanner.java
+
 │ └── Topologia.java
+
 ├── vista/
+
 │ ├── VistaPrincipal.java
+
 │ └── VentanaTopologia.java
+
 ├── controlador/
+
 │ └── ControladorPrincipal.java
+
 └── Main.java
 
 
