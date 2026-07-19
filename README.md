@@ -68,8 +68,14 @@ java generador.Main
 **Funcionalidades**
 
 **Función**	       //      **Descripción**
+
 -Escanear red	    //        Simula el escaneo de un rango de IPs y genera dispositivos aleatorios
+
 -Ver topología	    //      Dibuja un diagrama en estrella con router central
+
 -Exportar PNG	    //        Guarda el diagrama como imagen PNG
+
 -Guardar CSV	    //        Guarda la lista de dispositivos en un archivo CSV
+
 -Cargar CSV	       //       Carga dispositivos desde un archivo CSV
+
