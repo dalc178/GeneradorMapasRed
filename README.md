@@ -54,8 +54,8 @@ generador/
 
 1. Clonar el repositorio
    
-git clone https://github.com/dalc178/GeneradorMapasRojo.git
-cd GeneradorMapasRojo
+git clone https://github.com/dalc178/GeneradorMapasRed.git
+cd GeneradorMapasRed
 
 2. Compilar
    
