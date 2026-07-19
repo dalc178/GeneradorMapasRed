@@ -55,15 +55,22 @@ generador/
 1. Clonar el repositorio
    
 git clone https://github.com/dalc178/GeneradorMapasRed.git
+
 cd GeneradorMapasRed
 
 2. Compilar
+
+Abrir PowerShell en la carpeta del proyecto y ejecutar:
    
-javac -d . generador/modelo/*.java generador/vista/*.java generador/controlador/*.java generador/Main.java
+javac -d . (Get-ChildItem -Recurse -Filter *.java).FullName
 
 3. Ejecutar
    
 java generador.Main
+
+Nota: Los comandos están diseñados para PowerShell de Windows. En otros terminales (CMD o Git Bash), usar el comando alternativo:
+
+javac -d . generador/modelo/*.java generador/vista/*.java generador/controlador/*.java generador/Main.java
 
 **Funcionalidades**
 
