@@ -29,23 +29,23 @@ generador/
 
 ├── modelo/
 
-│ ├── Dispositivo.java
+│   ├── Dispositivo.java
 
-│ ├── Red.java
+│   ├── Red.java
 
-│ ├── Escanner.java
+│   ├── Escanner.java
 
-│ └── Topologia.java
+│   └── Topologia.java
 
 ├── vista/
 
-│ ├── VistaPrincipal.java
+│   ├── VistaPrincipal.java
 
-│ └── VentanaTopologia.java
+│   └── VentanaTopologia.java
 
 ├── controlador/
 
-│ └── ControladorPrincipal.java
+│   └── ControladorPrincipal.java
 
 └── Main.java
 
@@ -67,9 +67,9 @@ java generador.Main
 
 **Funcionalidades**
 
-**Función**	             **Descripción**
--Escanear red	            Simula el escaneo de un rango de IPs y genera dispositivos aleatorios
--Ver topología	          Dibuja un diagrama en estrella con router central
--Exportar PNG	            Guarda el diagrama como imagen PNG
--Guardar CSV	            Guarda la lista de dispositivos en un archivo CSV
--Cargar CSV	              Carga dispositivos desde un archivo CSV
+**Función**	       //      **Descripción**
+-Escanear red	    //        Simula el escaneo de un rango de IPs y genera dispositivos aleatorios
+-Ver topología	    //      Dibuja un diagrama en estrella con router central
+-Exportar PNG	    //        Guarda el diagrama como imagen PNG
+-Guardar CSV	    //        Guarda la lista de dispositivos en un archivo CSV
+-Cargar CSV	       //       Carga dispositivos desde un archivo CSV
